@@ -25,7 +25,7 @@ int main(void)
     int begin, end, end_1;
     begin = time(NULL);
 
-    slowprintf("柳暗\n");
+    printf("柳暗\n");
     slowprintf("（注：本故事由真实案件改编而成，所有选项依据现实选择为最快的通关方式。）\n");
     printf("【1】开始游戏\n");
     printf("【2】制作人员表\n");
@@ -125,10 +125,10 @@ int main(void)
                 else
                 {
                     slowprintf("你思索良久，按你的推断虽然失踪人员名单里不会有死者，但如果犯罪人员杀人后逃逸，那在死者死亡时间附近失踪的人员必然有重大嫌疑。你觉得开始翻看：\n");
-                    slowprintf("2010年1月商平县失踪人员信息表\n");
-                    slowprintf("2010年2月商平县失踪人员信息表\n");
-                    slowprintf("2009年2月商平县失踪人员信息表\n");
-                    slowprintf("2009年1月商平县失踪人员信息表\n");
+                    slowprintf("【1】2010年1月商平县失踪人员信息表\n");
+                    slowprintf("【2】2010年2月商平县失踪人员信息表\n");
+                    slowprintf("【3】2009年2月商平县失踪人员信息表\n");
+                    slowprintf("【4】2009年1月商平县失踪人员信息表\n");
                     getchar();
                     choose = getchar();
                     if (choose == '1')
