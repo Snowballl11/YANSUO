@@ -7,7 +7,7 @@
 
 #define MAX_SIZE 1024
 
-int slowprintf(char src[MAX_SIZE])
+void slowprintf(char src[MAX_SIZE])
 {
     int len;
     len = strlen(src);
