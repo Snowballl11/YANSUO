@@ -2,8 +2,7 @@
 #include<stdlib.h>
 #include<string.h>
 #include<time.h>
-#include <windows.h>
-//slowprintf("\n");
+#include<windows.h>
 
 #define MAX_SIZE 1024
 
